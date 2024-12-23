@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Homepage</title>
+    
+    <link rel="stylesheet" href="shoppage.css">
+    
+
+</head>
+<body id="home">
+  <div class="container">
+    
+
+    <main class="main-content">
+        <section id="skincare">
+            <h2>Skincare</h2>
+            
+            <div class="product-container" data-category="skincare">
+              
+                
+                
+                
+            </div>
+               </div>
+               </div>
+        
+    </div>
+        </section>
+        <section id="tablets">
+            <h2>Bee products</h2>
+            <div class="product-container" data-category="bee products"></div>
+            
+
+              <div>
+        </section>
+        <section id="accessories">
+            <h2>Drinks</h2>
+            <div class="product-container" data-category="drinks"></div>
+        </section>
+        <section id="accessories">
+            <h2>Personal Care</h2>
+            <div class="product-container" data-category="personal care"></div>
+        </section>
+        <section id="accessories">
+            <h2>Combo Box</h2>
+            <div class="product-container" data-category="combo box"></div>
+        </section>
+        <section id="accessories">
+            <h2>Weight Management</h2>
+            <div class="product-container" data-category="weight management"></div>
+        </section>
+        <section id="accessories">
+            <h2>Nutritional Supplements</h2>
+            <div class="product-container" data-category="nutritional supplements"></div>
+        </section>
+        
+        <p id="out-of-stock-message"></p>
+      <section id ="product-display">
+        
+      </section>
+   
+        </main>
+    </div>
+
+
+<style>
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 200px; /* Adjust as needed */
+    border-radius: 8px;
+    
+    overflow: hidden;
+}
+
+a img {
+    display: block;
+    width: 100%; /* Ensure image fits container */
+    height: auto;
+    background-color: #f9f9f9; /* Background for the image */
+    padding: 10px;
+}
+
+a h3 {
+    margin: 0;
+    background-color: rgb(138, 162, 138); /* Background for the heading */
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+a p {
+    margin: 0;
+    background-color: #eee;
+    background-color: rgb(138, 162, 138);
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+
+    
+    }
+    .product {
+  margin-top: 40px;
+  
+}
+
+
+.product h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  flex-direction: column;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.product-card {
+  
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-card h3 {
+  margin: 15px 10px 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.product-card p {
+  margin: 0 10px 15px;
+  font-size: 16px;
+  color: #666666;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+</style>
+    
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'">
+
+    <script src="shoppage.js"></script>
+</body>
+</html>
